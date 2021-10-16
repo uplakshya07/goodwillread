@@ -218,7 +218,7 @@ FOOTER
     margin: 5px;
 }
 
-@media screen and (min-width: 786px) and (min-height: 620px){
+@media screen and (min-width: 786px) {
     .footer-content{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
