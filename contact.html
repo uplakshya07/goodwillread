@@ -1,0 +1,170 @@
+<!-- Made by Uplakshya Vishwakarma -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap" rel="stylesheet">
+    <title>Good Will Read - Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .data {
+            width: 350px;
+            margin: 5px 0px;
+            display: inline-block;
+            border: 2px solid #d0cecc;
+            border-radius: 10px;
+            border-bottom-color: green;
+            background-color: #dcdfde;
+        }
+
+        .contact-form {
+            color: rgb(74, 67, 67);
+            padding: 0 30px;
+        }
+
+        .submit {
+            width: 100px !important;
+            padding: 8px;
+            margin: 10px 78px;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media screen and (min-width: 786px) {
+            #page-content{
+                padding: 20px 15%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logoContainer"><video src="LOGO2.mp4" class="logo" autoplay loop></video></a>
+        <div class="header-content">
+            <h1><a href="#">Good Will Read</a></h1><br>
+            <h4>Best online book store...</h4>
+        </div>
+    </header>
+
+    <div class="btn">
+        <button class="nav-btn">
+            <!-- <i class="fas fa-align-justify"></i> -->
+            <i class="fas fa-align-justify menu"></i>
+        </button>
+    </div>
+
+    <nav>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="service.html">Services</a>
+            <a href="product.html">Products</a>
+            <a class="active" href="contact.html">Contact Us</a>
+        </div>
+    </nav>
+
+    <div class="contact-form" id="page-content">
+        <h1 id="page-title">Contact Us</h1><br>
+        <p style="line-height: 180%; margin: 20px 0;">
+            Hey there! Thanks for visiting. Feel free to contact us and drop your thoughts about our services below,
+            We’d love to hear from you.
+        </p><br><br>
+        <form action="">
+            <label for="name">Name:</label><br>
+            <input type="text" name="myName" id="name" class="data" required>
+            <br>
+            <label for="email">Email id:</label><br>
+            <input type="email" name="myEmail" id="email" class="data" required>
+            <br>
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="message" class="data" cols="30" rows="10" required></textarea>
+            <br>
+            <input type="submit" value="SEND" class="submit">
+        </form>
+    </div>
+
+    <footer>
+        <!-- Section: Links  -->
+        <section class="footer-content">
+            <!-- Grid column -->
+            <div class="grid-col">
+                <!-- Content -->
+                <h4>
+                    <i class="fas fa-gem "></i>Good Will Read
+                </h4>
+                <p>
+                    Here you can use rows and columns to organize your footer content. Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit.
+                </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="grid-col">
+                <!-- Links -->
+                <h4>
+                    Useful links
+                </h4>
+                <p>
+                    <a href="#!" class="text-reset">Products</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Pricing</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Settings</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Orders</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Help</a>
+                </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="grid-col">
+                <!-- Links -->
+                <h4>
+                    Contact
+                </h4>
+                <p><i class="fas fa-home "></i> New York, NY 10012, US</p>
+                <p>
+                    <i class="fas fa-envelope me-3"></i>
+                    info@example.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="copyright">
+            © 2021 Copyright:
+            <a class="text-reset" href="https://engineeringtutor.winuall.com/">GoodWillReads.inc</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

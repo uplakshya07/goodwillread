@@ -1,0 +1,280 @@
+<!-- Made by Uplakshya Vishwakarma -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap" rel="stylesheet">
+    <title>Good Will Read - Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .main-content {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .product {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            line-height: 150%;
+            height: 300px;
+            padding: 50px 20px;
+        }
+
+        .product-img{
+            display: flex;
+            justify-content: center;
+        }
+
+        .details h3 {
+            font-weight: 600;
+        }
+
+        .details a {
+            text-decoration: none;
+            color: #007185;
+        }
+
+        a.product-title {
+            color: black;
+        }
+
+        .details a:hover:not(.price) {
+            text-decoration: underline;
+            color: #C7511F;
+        }
+
+
+        a.price {
+            color: #B12704;
+        }
+
+        .load-more{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media screen and (min-width: 786px) {
+            #page-content{
+                padding: 20px 15%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logoContainer"><video src="LOGO2.mp4" class="logo" autoplay loop></video></a>
+        <div class="header-content">
+            <h1><a href="#">Good Will Read</a></h1><br>
+            <h4>Best online book store...</h4>
+        </div>
+    </header>
+
+    <div class="btn">
+        <button class="nav-btn">
+            <!-- <i class="fas fa-align-justify"></i> -->
+            <i class="fas fa-align-justify menu"></i>
+        </button>
+    </div>
+
+    <nav>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="service.html">Services</a>
+            <a class="active" href="product.html">Products</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </nav>
+
+    <div id="page-content">
+        <h1 id="page-title">Products</h1><br><br>
+        <hr>
+        <div class="product">
+            <div class="product-img">
+                <a href="#"><img src="https://m.media-amazon.com/images/I/81U3+6n3s1L._AC_UY218_.jpg"
+                        alt="The Rudest book ever"></a>
+            </div>
+
+            <div class="details">
+                <a class="product-title" href="#">
+                    <h3>The Rudest Book Ever</h3>
+                </a>
+                <span>by <a href="#">Shwetabh Gangwar</a></span><br><br>
+                <h4><a href="#">Paperback</a></h4><br>
+                <h3>Price: <a href="#" class="price"> Rs.95</a></h3><br>
+                <span>FREE Delivery over Rs.499</span>
+            </div>
+
+        </div>
+        <hr>
+        <div class="product">
+            <div class="product-img">
+                <a href="#"><img src="https://m.media-amazon.com/images/I/91VokXkn8hL._AC_UY218_.jpg"
+                        alt="Rich Dad Poor Dad"></a>
+            </div>
+
+            <div class="details">
+                <a class="product-title" href="#">
+                    <h3>Rich Dad Poor Dad</h3>
+                </a>
+                <span>by <a href="#">Robert T. Kiyosaki</a></span><br><br>
+                <h4><a href="#">Paperback</a></h4><br>
+                <h3>Price: <a href="#" class="price">Rs.95</a></h3><br>
+                <span>FREE Delivery over Rs.499</span>
+            </div>
+
+        </div>
+        <hr>
+        <div class="product">
+            <div class="product-img">
+                <a href="#"><img src="https://m.media-amazon.com/images/I/911IPbfO8BL._AC_UY218_.jpg"
+                        alt="The Metamorphosis (Bantam Classics)"></a>
+            </div>
+
+            <div class="details">
+                <a class="product-title" href="#">
+                    <h3>The Metamorphosis (Bantam Classics)</h3>
+                </a>
+                <span>by <a href="#">Franz Kafka</a> and Stanley Corngold</span><br><br>
+                <h4><a href="#">Paperback</a></h4><br>
+                <h3>Price: <a href="#" class="price"> Rs.95</a></h3><br>
+                <span>FREE Delivery over Rs.499</span>
+            </div>
+
+        </div>
+        <hr>
+        <div class="product">
+            <div class="product-img">
+                <a href="#"><img src="https://m.media-amazon.com/images/I/71k1kolB0lL._AC_UY218_.jpg"
+                        alt="Great Dialogues of Plato"></a>
+            </div>
+
+            <div class="details">
+                <a class="product-title" href="#">
+                    <h3>Great Dialogues of Plato</h3>
+                </a>
+                <span>by <a href="#">Plato</a> , W. H. D. Rouse, et al.</span><br><br>
+                <h4><a href="#">Paperback</a></h4><br>
+                <h3>Price: <a href="#" class="price"> Rs.95</a></h3><br>
+                <span>FREE Delivery over Rs.499</span>
+            </div>
+
+        </div>
+        <hr>
+        <div class="product">
+            <div class="product-img">
+                <a href="#"><img src="https://m.media-amazon.com/images/I/51JWnbJyL-L._AC_UY218_.jpg"
+                        alt="Think and Grow Rich"></a>
+            </div>
+
+            <div class="details">
+                <a class="product-title" href="#">
+                    <h3>Think and Grow Rich</h3>
+                </a>
+                <span>by <a href="#">Napoleon Hill</a></span><br><br>
+                <h4><a href="#">Paperback</a></h4><br>
+                <h3>Price: <a href="#" class="price"> Rs.95</a></h3><br>
+                <span>FREE Delivery over Rs.499</span>
+            </div>
+
+        </div>
+        <hr>
+        <div class="product">
+            <div class="product-img">
+                <a href="#"><img src="https://m.media-amazon.com/images/I/71xydFcbc2L._AC_UY218_.jpg"
+                        alt="How to Win Friends and Influence People"></a>
+            </div>
+
+            <div class="details">
+                <a class="product-title" href="#">
+                    <h3>How to Win Friends and Influence People</h3>
+                </a>
+                <span>by <a href="#">Dale Carnegie</a></span><br><br>
+                <h4><a href="#">Paperback</a></h4><br>
+                <h3>Price: <a href="#" class="price"> Rs.95</a></h3><br>
+                <span>FREE Delivery over Rs.499</span>
+            </div>
+
+        </div>
+        <hr>
+        <div class="product load-more">
+            <a href="#">LOAD MORE...</a>
+        </div>
+    </div>
+
+    <footer>
+        <!-- Section: Links  -->
+        <section class="footer-content">
+            <!-- Grid column -->
+            <div class="grid-col">
+                <!-- Content -->
+                <h4>
+                    <i class="fas fa-gem "></i>Good Will Read
+                </h4>
+                <p>
+                    Here you can use rows and columns to organize your footer content. Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit.
+                </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="grid-col">
+                <!-- Links -->
+                <h4>
+                    Useful links
+                </h4>
+                <p>
+                    <a href="#!" class="text-reset">Products</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Pricing</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Settings</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Orders</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Help</a>
+                </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="grid-col">
+                <!-- Links -->
+                <h4>
+                    Contact
+                </h4>
+                <p><i class="fas fa-home "></i> New York, NY 10012, US</p>
+                <p>
+                    <i class="fas fa-envelope me-3"></i>
+                    info@example.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="copyright">
+            © 2021 Copyright:
+            <a class="text-reset" href="https://engineeringtutor.winuall.com/">GoodWillReads.inc</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
